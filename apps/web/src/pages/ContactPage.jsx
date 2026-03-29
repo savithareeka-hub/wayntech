@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
+import Header from '../components/Header.jsx';
+import Footer from '../components/Footer.jsx';
 import { Button } from './components/ui/button';
 import { Input } from './components/ui/input';
 import { Textarea } from './components/ui/textarea';
