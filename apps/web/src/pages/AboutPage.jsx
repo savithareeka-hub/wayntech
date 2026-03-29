@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import Header from '@/components/Header.jsx';
-import Footer from '@/components/Footer.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 import { Target, Heart, Zap } from 'lucide-react';
 
 const AboutPage = () => {
