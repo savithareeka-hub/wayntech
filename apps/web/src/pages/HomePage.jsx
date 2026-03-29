@@ -2,10 +2,10 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from './components/ui/button';
 import { ArrowRight, Award, Sparkles, Users } from 'lucide-react';
-import Header from '@/components/Header.jsx';
-import Footer from '@/components/Footer.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 
 const HomePage = () => {
   return (
