@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import Header from '@/components/Header.jsx';
-import Footer from '@/components/Footer.jsx';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import { Button } from './components/ui/button';
+import { Input } from './components/ui/input';
+import { Textarea } from './components/ui/textarea';
+import { Label } from './components/ui/label';
 import { toast } from 'sonner';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 const ContactPage = () => {
